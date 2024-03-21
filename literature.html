@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG Literature</title>
+    <link rel="icon" href="images/cat_icon.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Imbue:opsz,wght@10..100,100..900&family=Kablammo&family=Ojuju:wght@200..800&family=Rock+3D&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Kablammo&family=Rock+3D&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <button class="MenuButton" onclick="toggleMenu()">MENU</button>
+        <div class="title">
+            <h1 class="name">CHLOE GOSSELIN</h1>
+        </div>
+        <nav class="defaultNav">
+            <a href="index.html"><button class="">Home</button></a>
+            <a href="gallery.html"><button class="">Gallery</button></a>
+            <a href="literature.html"><button class="">Literature</button></a>
+            <a href="music.html"><button class="">Music</button></a>
+        </nav>
+        <nav id="mobileNav" class="mobileNav hidden">
+            <a href="index.html"><button class="">Home</button></a>
+            <a href="gallery.html"><button class="">Gallery</button></a>
+            <a href="literature.html"><button class="">Literature</button></a>
+            <a href="music.html"><button class="">Music</button></a>
+        </nav>
+    </header>
+    <h1 class="lit" style="margin-top:150px; margin-bottom: -150px;">LITERATURE</h1>
+    <p id="warning">**IF SLIDE ARROWS STOP WORKING REFRESH PAGE**</p>
+    <div class="carousel">
+        <button onclick="moveLeft()"><img src="images/arrow.webp" style="transform: rotate(180deg);"
+                class="cArrow"></button>
+        <div id="carousel-box">
+            <img src="images/novels/orv.png" class="novels" alt="Omniscient Reader's Viewpoint book cover">
+            <img src="images/novels/lotm.webp" class="novels" alt="Lord of the Mysteries book cover">
+            <img src="images/novels/achilles.jpg" class="novels" alt="Song of Achilles book cover">
+            <img src="images/novels/mounthua.jpeg" class="novels" alt="Return of Mount Hua book cover">
+            <img src="images/novels/bsd.jpg" class="novels" alt="Bungou Stray Dogs Vol 1 book cover">
+            <img src="images/novels/bsd_beast.jpg" class="novels" alt="Bungou Stray Dogs Beast Vol 1 book cover">
+            <img src="images/novels/tbhk.jpg" class="novels" alt="Toilet Bound Hanako-kun Vol 1 book cover">
+            <img src="images/novels/vanitas.png" class="novels" alt="Case Study of Vanitas Vol 1 book cover">
+        </div>
+        <button onclick="moveRight()"><img src="images/arrow.webp" class="cArrow"></button>
+    </div>
+    
+    <div class="details">
+        <h2>Omniscient Reader's Viewpoint</h2>
+        <br>
+        <ul>
+            <li>Chapters: 551 [200+ untranslated extra stories]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>Kim Dokja does not consider himself the protagonist of his own life. Befitting the name his parents gave him,
+            he is a solitary person whose sole hobby is reading web novels. For over a decade, he has lived vicariously
+            through Yu Junghyeok, the main character of the web novel Three Ways to Survive the Apocalypse (TWSA).
+        </p>
+        <p>
+            Through Junghyeok, Dokja has experienced secondhand the trials of repeatedly regressing in time, in search
+            of an end to life-threatening “scenarios” that force people to act out narratives for the amus**ent of
+            god-like “Constellations.”
+        </p>
+        <p>
+            After reading 3,149 chapters—long after all other readers lost interest—Dokja finally resigns himself to the
+            story ending. However, he receives an enigmatic message from the author, stating that the story will soon be
+            monetized, before his surroundings suddenly go dark.
+        </p>
+        <p>
+            He swiftly realizes that fiction has become reality and he is now living through TWSA. Although he is the
+            singular omniscient reader of the events yet to come, his success in the scenarios is not guaranteed—but
+            perhaps his advantage will empower him to step into the protagonist role that never suited him before.</p>
+        </p>
+    </div>
+    <div class="details">
+        <h2>Lord of the Mysteries</h2>
+        <br>
+        <ul>
+            <li>Book complete: 1432</li>
+            <li>Book 2 [wip]</li>
+            <li>Book 3 [untranslated]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>With the rising tide of steam power and machinery, who can come close to being a Beyonder? Shrouded in the
+            fog of history and darkness, who or what is the lurking evil that murmurs into our ears?</p>
+        <p>Waking up to be faced with a string of mysteries, Zhou Mingrui finds himself reincarnated as Klein Moretti in
+            an alternate Victorian-era world where he sees a world filled with machinery, cannons, dreadnoughts,
+            airships, different machines, as well as Potions, Divination, Hexes, Tarot Cards, Sealed Artifacts…</p>
+        <p>The Light continues to shine but mystery has never gone far. Follow Klein as he finds himself entangled with
+            the Churches of the world—both orthodox and unorthodox—while he slowly develops newfound powers thanks to
+            the Beyonder potions.</p>
+        <p>Like the corresponding tarot card, The Fool, which is numbered 0—a number of unlimited potential—this is the
+            legend of “The Fool”.</p>
+    </div>
+    <div class="details">
+        <h2>Song of Achilles</h2>
+        <br>
+        <ul>
+            <li>One Volume, 408 pages</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>Achilles, "the best of all the Greeks," son of the cruel sea goddess Thetis and the legendary king Peleus, is
+            strong, swift, and beautiful, irresistible to all who meet him. Patroclus is an awkward young prince, exiled
+            from his homeland after an act of shocking violence. Brought together by chance, they forge an inseparable
+            bond, despite risking the gods' wrath.</p>
+        <p>They are trained by the centaur Chiron in the arts of war and medicine, but when word comes that Helen of
+            Sparta has been kidnapped, all the heroes of Greece are called upon to lay siege to Troy in her name.
+            Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for
+            his friend, Patroclus follows. Little do they know that the cruel Fates will test them both as never before
+            and demand a terrible sacrifice.</p>
+    </div>
+    <div class="details">
+        <h2>Return of Mount Hua Sect</h2>
+        <br>
+        <ul>
+            <li>Chapters: 1692 Chapters [Ongoing]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>The 13th generation disciple of the Great Mount Hua Sect. One of the Three Great Swordsmen. The Plum Blossom
+            Sword Saint, Chung Myung.
+        </p>
+        <p>After slicing the head of the peerless Heavenly Demon, who threw the world into chaos, he slept an eternal
+            sleep on the peak of the Hundred Thousand Great Mountains. Jumping over a hundred years, he comes back in
+            the body of a child.</p>
+        <p>But… what? Mount Hua declined? What the hell are you talking about!?</p>
+        <p>It's only natural to want to live if you're going broke.</p>
+        <p>“Decline? Even though I'm here? Who would dare!”</p>
+        <p>Plum blossoms eventually fall.</p>
+        <p>But when the cold winter passes and spring comes, plum blossoms shall bloom again.</p>
+        <p>“But I'm gonna die first before Mount Hua gets revived! If you're gonna go bust, might as well do it right,
+            you bastards!”</p>
+        <p>The beginning of the Plum Blossom Sword Saint, Chung Myung's solitary struggle to save the thoroughly
+            declining Mount Hua Sect.</p>
+    </div>
+    <div class="details">
+        <h2>Bungou Stray Dogs [MANGA]</h2>
+        <br>
+        <ul>
+            <li>Volumes: 20[?]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>For weeks, Atsushi Nakajima's orphanage has been plagued by a mystical tiger that only he seems to be unaware
+            of. Suspected to be behind the strange incidents, the 18-year-old is abruptly kicked out of the orphanage
+            and left hungry, homeless, and wandering through the city.</p>
+        <p>While starving on a riverbank, Atsushi saves a rather eccentric man named Osamu Dazai from drowning.
+            Whimsical suicide enthusiast and supernatural detective, Dazai has been investigating the same tiger that
+            has been terrorizing the boy. Together with Dazai's partner Doppo Kunikida, they solve the mystery, but its
+            resolution leaves Atsushi in a tight spot. As various odd events take place, Atsushi is coerced into joining
+            their firm of supernatural investigators, taking on unusual cases the police cannot handle, alongside his
+            numerous enigmatic co-workers.
+        </p>
+    </div>
+    <div class="details">
+        <h2>Bungou Stray Dogs: Beast [MANGA]</h2>
+        <br>
+        <ul>
+            <li>Volumes: 4[?]</li>
+            <li>Canon Parallel Universe</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>In the parallel universe of Bungo Stray Dogs: Beast, Ryuunosuke Akutagawa’s desperate mission to save his
+            younger sister leads to him being recruited by the armed detective agency! But standing in his way is none
+            other than the fearsome White Reaper of the Port Mafia-Atsushi Nakajima. As darkness and light face off,
+            what fate awaits the two…?</p>
+    </div>
+    <div class="details">
+        <h2>Toilet Bound Hanako-kun</h2>
+        <br>
+        <ul>
+            <li>Volumes: 21 [ongoing]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>The famous Seven Mysteries that every school seems to have are a staple of Japanese urban legends. One of the
+            most well-known of these tales is that of Hanako-san: the ghost of a young girl who haunts the school's
+            bathrooms.</p>
+        <p>Kamome Academy has its own version of Hanako-san's legend. Rumors claim that if one successfully manages to
+            summon Hanako-san, she will grant her summoner any wish. Lured by the gossip, many people have tried to call
+            upon her, yet every attempt has failed. However, when Nene Yashiro, a girl hoping for romantic fortune,
+            dares to summon Hanako-san, she discovers that the rumored "girl" is actually a boy!
+        </p>
+        <p>After a series of unfortunate events involving Yashiro's romantic desires, she is unwillingly entangled in
+            the world of the supernatural, becoming Hanako-kun's assistant. Soon, she finds out about Hanako-kun's
+            lesser-known duty: maintaining the fragile balance between mortals and apparitions.
+        </p>
+        <br>
+        <p>*Do not let this trick you into thinking it is a wholesome ghost romance*</p>
+    </div>
+    <div class="details">
+        <h2>Case Study of Vanitas</h2>
+        <br>
+        <ul>
+            <li>Volumes: 10[?]</li>
+        </ul>
+        <br>
+        <h2>SYNOPSIS</h2>
+        <p>Scorned by others of his kind for being born under a blue moon, the vampire Vanitas grew afraid and desolate.
+            According to legend, he created a cursed grimoire known as the "Book of Vanitas," and it is said he would
+            one day use it to bring retribution upon all vampires of the crimson moon.
+        </p>
+        <p>In 19th century Paris, Noé Archiviste is searching for the fabled Book of Vanitas. Whilst traveling aboard an
+            airship, he is saved from a vampire attack by an eccentric doctor who calls himself Vanitas and carries the
+            very tome he seeks. Ironically, the self-proclaimed vampire specialist is a mere human who inherited both
+            his name and the book from his master, the same Vanitas of legend. As the odd case of the Charlatan's Parade
+            crops up, the doctor's ability to restore sanity to vampires by recovering their true name will prove most
+            beneficial.
+        </p>
+    </div>
+    
+
+    <script src="scripts/literature.js"></script>
+    <footer>
+        <div class="contact">
+            <h2>CONTACT</h2>
+            <p>chloegosselin@cmail.carleon.ca</p>
+        </div>
+        <p>XXX-XXX-XXXX</p>
+        <p>copyright 2024 - chloegosselin</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG Music</title>
+    <link rel="icon" href="images/cat_icon.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Imbue:opsz,wght@10..100,100..900&family=Kablammo&family=Rock+3D&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <button class="MenuButton" onclick="toggleMenu()">MENU</button>
+        <div class="title">
+            <h1 class="name">CHLOE GOSSELIN</h1>
+        </div>
+        <nav class="defaultNav">
+            <a href="index.html"><button class="">Home</button></a>
+            <a href="gallery.html"><button class="">Gallery</button></a>
+            <a href="literature.html"><button class="">Literature</button></a>
+            <a href="music.html"><button class="">Music</button></a>
+        </nav>
+        <nav id="mobileNav" class="mobileNav hidden">
+            <a href="index.html"><button class="">Home</button></a>
+            <a href="gallery.html"><button class="">Gallery</button></a>
+            <a href="literature.html"><button class="">Literature</button></a>
+            <a href="music.html"><button class="">Music</button></a>
+        </nav>
+
+    </header>
+    <h1 class="band" style="margin-top:150px; margin-bottom: 50px;">MUSIC</h1>
+    <!-- <div class="boxGenre">
+        <div class="gridM">
+            <h2>GENRES:</h2>
+            <button>Pop</button>
+            <button>Folk</button>
+            <button>Alternative</button>
+            <button>Instrumental</button>
+            <button>Musicals</button>
+        </div>
+
+    </div> -->
+    <div class="MThrice">
+        <div class="PlayBox">
+            <img src="images/vinyl.png" id="vinyl">
+            <div class="audio">
+                <p id="title">PRESS VINYL FOR SONG</p>
+                <audio title="TITLE" id="audioPlayer" controls></audio>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/freefall.jpg" class="cover" alt="Freefall album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=U2WDdccgaDY" target="blank_">It's Called: Freefall</a>
+                <p>Rainbow kitten surprise</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/agoraphobia.jpg" class="cover" alt="Agoraphobia album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=hEWnzBSwJyE" target="blank_">Agoraphobia</a>
+                <p>Autoheart</p>
+            </div>
+        </div>
+
+        <div class="Mhold">
+            <img src="images/music/almost.webp" class="cover" alt="Almsot album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=JJ9IX4zgyLs" target="blank_">Almost</a>
+                <p>Hozier</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/eatyouryoung.jpg" class="cover" alt="Eat Your Young album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=MuEy1HG5jUE" target="blank_">Eat Your Young [Bekon's Choral
+                    Version]</a>
+                <p>Hozier</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/worksong.jfif" class="cover" alt="Work Song album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=nH7bjV0Q_44" target="blank_">Work Song</a>
+                <p>Hozier</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/stickseason.png" class="cover" alt="Stick Season album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=iWG6apzIWAk" target="blank_">Stick Season</a>
+                <p>Noah Kahan</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/everywhere.jfif" class="cover" alt="Everywhere, Everything album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=uVQokyxiXzY" target="blank_">Everywhere, Everything</a>
+                <p>Noah Kahan</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/birthdaysuit.jpg" class="cover" alt="Birthday Suit album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=6cq0zUXcELM" target="blank_">Birthday Suit</a>
+                <p>Cosmo Sheldrake</p>
+            </div>
+        </div>
+    
+        <div class="Mhold">
+            <img src="images/music/comealong.jfif" class="cover" alt="Come Along album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=bIyl9bCp6W4" target="blank_">Come Alone</a>
+                <p>Cosmo Sheldrake</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/time.jfif" class="cover" alt="Time album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=c56t7upa8Bk" target="blank_">Time</a>
+                <p>Hans Zimmer</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/cornfieldchase.jfif" class="cover" alt="Cornfield Chase album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=7GlsxNI4LVI" target="blank_">Cornfield Chase</a>
+                <p>Hans Zimmer</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/merrygoround.jpg" class="cover" alt="Merry Go Round of Life album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=2pQKqQ9sG50" target="blank_">Merry Go Round of Life</a>
+                <p>Joe Hisaishi</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/nothing.jfif" class="cover" alt="Nothing [Dr. Stockill] album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=_UOdnjVk01Q" target="blank_">Nothing [Dr. Stockill]</a>
+                <p>Emilie Autumn</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/justaman.jfif" class="cover" alt="Just a Man album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=Pi-dmufCcng" target="blank_">Just A Man</a>
+                <p>Epic the Musical</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/survive.jpg" class="cover" alt="Survive album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=tbwQAorWWJk" target="blank_">Survive</a>
+                <p>Epic the Musical</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/ruthlessness.jfif" class="cover" alt="Ruthlessness album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=3dzBlSeCJNg" target="blank_">Ruthlessness</a>
+                <p>Epic the Musical</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/ruthlessness.jfif" class="cover" alt="Ruthlessness album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=Z-Y0iMmFzFE" target="blank_">Keep Your Friends Close</a>
+                <p>Epic the Musical</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/wouldntyoulike.jpg" class="cover" alt="Wouldn't You Like album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=xkIBM71E0_w" target="blank_">Wouldn't You Like</a>
+                <p>Epic the Musical</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/falseconfidence.jpg" class="cover" alt="False Confidence album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=dWRWuY3pV2c" target="blank_">False Confidence</a>
+                <p>Noah Kahan</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/consequence.jpg" class="cover" alt="The Consequence Of Imagination Is
+            Fear album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=BbsDuAB_I7Q" target="blank_">The Consequence Of Imagination Is
+                    Fear</a>
+                <p>Junie & The Hut Friends</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/luminary.jpg" class="cover" alt="Luminary album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=VkbvUjbHcGE" target="blank_">Luminary</a>
+                <p>Joel Sunny</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/solas.webp" class="cover" alt="Solas album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=ZT0aOrjIcVE" target="blank_">Solas</a>
+                <p>Jamie Duffy</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/millionsknives.jfif" class="cover" alt="Millions Knives album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=kMpSLT0w6ko" target="blank_">Millions Knives</a>
+                <p>Trigun Stampede</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/curses.jpg" class="cover" alt="Curses album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=8Gopg80VXwc" target="blank_">Curses</a>
+                <p>The Crane Wives</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/achilles.jpg" class="cover" alt="Achilles Come Down album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=T_V76Dm42bY" target="blank_">Achilles Come Down</a>
+                <p>Gang of Youth</p>
+            </div>
+        </div>
+        <div class="Mhold">
+            <img src="images/music/experience.jfif" class="cover" alt="Experience album cover">
+            <div class="Mdesc">
+                <a href="https://www.youtube.com/watch?v=_VONMkKkdf4" target="blank_">Experience</a>
+                <p>Ludovico Einaudi</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/music.js"></script>
+    <footer>
+        <div class="contact">
+            <h2>CONTACT</h2>
+            <p>chloegosselin@cmail.carleon.ca</p>
+        </div>
+        <p>XXX-XXX-XXXX</p>
+        <p>copyright 2024 - chloegosselin</p>
+    </footer>
+</body>
+
+</html>
